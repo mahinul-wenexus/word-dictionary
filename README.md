@@ -3,42 +3,42 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-### 🧪 Testing
+**🧪 Testing**
 - [Fixtures](#fixtures)
 
-### 🔤 Strings & Sequences
+**🔤 Strings & Sequences**
 - [Substring](#substring)
 - [Subsequence](#subsequence)
 
-### 🏗️ Design Patterns
+**🏗️ Design Patterns**
 - [Dependency Injection](#dependency-injection)
 - [Memoization](#memoization)
 - [Circuit Breaker](#circuit-breaker)
 - [Graceful Degradation](#graceful-degradation)
 
-### ⚡ Performance
+**⚡ Performance**
 - [High Throughput](#high-throughput)
 - [Caching](#caching)
-- [Debouncing vs. Throttling](#debouncing-vs-throttling)
+- [Debouncing vs Throttling](#debouncing-vs-throttling)
 - [Pagination](#pagination)
 - [Backpressure](#backpressure)
 
-### 🔄 Concurrency & Systems
+**🔄 Concurrency & Systems**
 - [Race Condition](#race-condition)
 - [Deadlock](#deadlock)
-- [Concurrency vs. Parallelism](#concurrency-vs-parallelism)
+- [Concurrency vs Parallelism](#concurrency-vs-parallelism)
 - [Idempotency](#idempotency)
 
-### 🌐 Distributed Systems
+**🌐 Distributed Systems**
 - [Eventual Consistency](#eventual-consistency)
-- [Polling vs. Webhooks](#polling-vs-webhooks)
-- [Serialization & Deserialization](#serialization--deserialization)
+- [Polling vs Webhooks](#polling-vs-webhooks)
+- [Serialization and Deserialization](#serialization-and-deserialization)
 
 ---
 
-## 🧪 Testing
+# 🧪 Testing
 
 ---
 
@@ -60,7 +60,7 @@ In programming, **fixtures** refer to predefined data sets or configurations use
 
 ---
 
-## 🔤 Strings & Sequences
+# 🔤 Strings & Sequences
 
 ---
 
@@ -103,7 +103,7 @@ A **subsequence** is a smaller sequence of characters taken from the original �
  because the characters are not consecutive
 ```
 
-### Substring vs. Subsequence
+### Substring vs Subsequence
 
 | | Substring | Subsequence |
 |---|---|---|
@@ -113,7 +113,7 @@ A **subsequence** is a smaller sequence of characters taken from the original �
 
 ---
 
-## 🏗️ Design Patterns
+# 🏗️ Design Patterns
 
 ---
 
@@ -237,7 +237,7 @@ Without a circuit breaker, a slow downstream service causes a **cascade failure*
 
 ---
 
-## ⚡ Performance
+# ⚡ Performance
 
 ---
 
@@ -248,7 +248,7 @@ Without a circuit breaker, a slow downstream service causes a **cascade failure*
 ### Quick Rule
 > Throughput = **how much** work gets done, not how fast a single task finishes.
 
-### Throughput vs. Latency
+### Throughput vs Latency
 
 | | Latency | Throughput |
 |---|---|---|
@@ -293,7 +293,7 @@ The hardest problem in caching — knowing **when to throw the old data away**.
 
 ---
 
-## Debouncing vs. Throttling
+## Debouncing vs Throttling
 
 Both techniques **limit how often a function runs**, but for different reasons.
 
@@ -381,7 +381,7 @@ Cursor Pagination — start from where you left off
 
 ---
 
-## 🔄 Concurrency & Systems
+# 🔄 Concurrency & Systems
 
 ---
 
@@ -444,7 +444,7 @@ A **deadlock** is when two or more processes are **stuck waiting for each other*
 
 ---
 
-## Concurrency vs. Parallelism
+## Concurrency vs Parallelism
 
 These are often used interchangeably, but they mean very different things.
 
@@ -506,7 +506,7 @@ Idempotency is critical in distributed systems — **network retries** happen al
 
 ---
 
-## 🌐 Distributed Systems
+# 🌐 Distributed Systems
 
 ---
 
@@ -526,7 +526,7 @@ You post a photo on Instagram 📸
 → Both see the same photo eventually            ✅
 ```
 
-### Eventual vs. Strong Consistency
+### Eventual vs Strong Consistency
 
 | | Strong Consistency | Eventual Consistency |
 |---|---|---|
@@ -539,7 +539,7 @@ You post a photo on Instagram 📸
 
 ---
 
-## Polling vs. Webhooks
+## Polling vs Webhooks
 
 Both are ways to **get updated data from a server**, but they work in opposite directions.
 
@@ -572,7 +572,7 @@ Server → "Hey, a new message just arrived!" → Client ✅
 
 ---
 
-## Serialization & Deserialization
+## Serialization and Deserialization
 
 **Serialization** converts an in-memory object into a format (like JSON or binary) that can be **stored or transmitted**. **Deserialization** is the reverse — turning it back into a usable object.
 
