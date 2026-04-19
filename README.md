@@ -1,6 +1,8 @@
 # 📖 Developer Word Dictionary
 > A personal reference for programming terminology — clear definitions with memorable examples.
 
+> New word: Bootstrap, 
+
 ---
 
 ## Table of Contents
